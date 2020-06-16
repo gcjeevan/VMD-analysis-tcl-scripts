@@ -1,5 +1,9 @@
 #gcjeevanb@gmail.com, June 15 2020
 #jeevan.gc@wsu.edu
+#The tcl script will calculate the solvent accesible surface area (sasa) of ligands, protein and complex from the MD trajectory.
+#Buried surface are (BSA) will be calcuated using sasa values.
+#BSA = (sasa_prot + sasa_lig - sasa_complex)/2
+
 #USAGE: source sasa-bsa.tcl (in VMD TK console window)
 
 #Load psf and dcd trajectory files in vmd
