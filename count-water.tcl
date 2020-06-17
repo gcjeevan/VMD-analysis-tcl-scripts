@@ -1,4 +1,4 @@
-
+# Calculates number of water within 4 of certain residue
 # open a file for writing the data to
 set OUTPUT0 [open "count-contact-water.dat" w]
 
